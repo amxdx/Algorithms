@@ -1,6 +1,6 @@
 print("Equation: 8x + 6y = 2500")
 for x in range(30,90):
-	y = 2500 - 8*x
+	y = 250 - 8*x
 	y = y/6
 	if (y.is_integer()):
 		print(x,y)
